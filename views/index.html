@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" ng-app>
+
+<head>
+  <title>HR-Staff Details</title>
+	<!--Config for scalable screen size-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Bootstrap Config/instruction library-->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <!--Styling for the table which contains the staff member details-->
+	<style>
+    body {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    
+    table,
+    th,
+    td {
+      border-collapse: collapse; 
+      border: 1px solid black;
+      text-align: center;
+
+    }
+		</style>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+		<!--Ajax call to ad html to the results element-->
+    function load() {
+      $.ajax({
+        url: "/get/html",
+        cache: false,
+        success: function(html) {
+          $("#results").append(html);
+        }
+      });
+    };
+
+    $(document).ready(function() {
+      load();
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+      </div>
+    </div>
+    <div class="page-header">
+      <h1>HR-Staff Details</h1>
+    </div>
+    <div class="span11">
+        <ul class="nav nav-list well">
+          <li>
+            <form enctype='application/json' action="/post/json" method="post">
+              <div class="field">
+                <input type="text" name="Full_Name" placeholder="Full Name">
+              </div>
+              <div class="field">
+                <input type="text" name="Address" placeholder="Address">
+              </div>
+              <div class="field">
+                <input type="text" name="Gender" placeholder="Gender">
+              </div>
+              <div class="field">
+                <input type="text" name="Phone_Number" placeholder="Phone Number">
+              </div>
+              <div class="field">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+      <div id="results" class="span11">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
