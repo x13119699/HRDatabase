@@ -41,6 +41,12 @@
             "Address": "mnh/,jh",
             "Gender": ".jhg.kj",
             "Phone_Number": "23535"
+        },
+        {
+            "Full_Name": "frank",
+            "Address": "Grosvernor Road",
+            "Gender": "Male ",
+            "Phone_Number": "087 26 88222"
         }
     ]
 }

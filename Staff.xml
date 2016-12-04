@@ -42,4 +42,10 @@
         <Gender>.jhg.kj</Gender>
         <Phone_Number>23535</Phone_Number>
     </member>
+    <member>
+        <Full_Name>frank</Full_Name>
+        <Address>Grosvernor Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>087 26 88222</Phone_Number>
+    </member>
 </staff>

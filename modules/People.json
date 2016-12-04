@@ -1,0 +1,24 @@
+{
+  "Prices": [{
+    "id": "1",
+    "name": "BSN",
+    "surname": ,
+    "price": "40$",
+    "summary": "As any athlete knows, protein is key to support the growth and maintenance of muscle mass. SYNTHA-6® EDGE is great-tasting protein powder that can be used at any time of the day. Combining a blend of different whey and milk protein sources with unrivalled taste, SYNTHA - 6® EDGE delivers the same incredible taste you 've come to expect from SYNTHA-6® but with an even better macronutrient profile than the original. BSN®’s exclusive flavour technology produces some of the most mouth-watering shakes imaginable, making protein supplementation with SYNTHA - 6® EDGE so good you 'll think it's cheat day.",
+    "image": "http://store.bbcomcdn.com/deploy/images/brands/bsn/syntha-6/bottle.png"
+  }, {
+    "id": "1",
+    "vendor": "Optimum Nutrition",
+    "productname": "ON WHEY",
+    "price": "40$",
+    "summary": "Help kick start your muscle growth with Optimum Nutrition’s Gold Standard 100% Whey™. The world’s best-selling whey protein delivers 24 grams of protein with low levels of fat and 120 calories. This superior quality powder has been instantised to mix easily using a shaker cup. There's no doubt that this is the gold standard by which all other whey proteins are measured.",
+    "image": "http://www.shapeandtone.co.uk/image/cache/catalog/OptimumNutrition/Optimum-Nutrition-Gold-Standard-Whey-Banana-2-228x228.png"
+  }, {
+    "id": "2",
+    "vendor": "USN",
+    "productname": "USN WHEY ANABOLIC",
+    "price": "40$",
+    "summary": "Formulated by a passionate team of scientists, our Muscle Fuel Anabolic focuses on muscle growth and maintenance. Here at USN we pride ourselves on offering a powerful muscle shake which not only fuels your body, but also tastes fantastic.",
+    "image": "http://uk.usn-sport.com/media/catalog/product/cache/2/image/317x460/9df78eab33525d08d6e5fb8d27136e95/m/f/mfastr4kg.png"
+  }]
+}
