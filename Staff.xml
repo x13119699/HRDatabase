@@ -1,51 +1,795 @@
 <?xml version='1.0'?>
 <staff>
     <member>
-        <Full_Name></Full_Name>
-        <Address></Address>
-        <Gender></Gender>
-        <Phone_Number></Phone_Number>
-    </member>
-    <member>
-        <Full_Name>kgkjhk</Full_Name>
-        <Address>;,lkj;lkjlk;</Address>
-        <Gender>;lkjul;kj;l</Gender>
-        <Phone_Number>12345</Phone_Number>
-    </member>
-    <member>
-        <Full_Name>lkj;lkj;l</Full_Name>
-        <Address>;lkj;lk;lk';</Address>
-        <Gender>fufgjyhgih</Gender>
-        <Phone_Number>3124523</Phone_Number>
-    </member>
-    <member>
-        <Full_Name></Full_Name>
-        <Address></Address>
-        <Gender></Gender>
-        <Phone_Number></Phone_Number>
-    </member>
-    <member>
-        <Full_Name>kjhkjh</Full_Name>
-        <Address></Address>
-        <Gender></Gender>
-        <Phone_Number></Phone_Number>
-    </member>
-    <member>
-        <Full_Name>Paul Cahill</Full_Name>
-        <Address>10 Mayor Street Dublin</Address>
-        <Gender>Male</Gender>
-        <Phone_Number>12345678</Phone_Number>
-    </member>
-    <member>
-        <Full_Name>jhgkj</Full_Name>
-        <Address>mnh/,jh</Address>
-        <Gender>.jhg.kj</Gender>
-        <Phone_Number>23535</Phone_Number>
-    </member>
-    <member>
-        <Full_Name>frank</Full_Name>
-        <Address>Grosvernor Road</Address>
+        <StaffId>1</StaffId>
+        <Full_Name>Amal Castaneda</Full_Name>
+        <Address>422-682 Nunc Street</Address>
         <Gender>Male </Gender>
-        <Phone_Number>087 26 88222</Phone_Number>
+        <Phone_Number>1-569-335-1187</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>2</StaffId>
+        <Full_Name>Aubrey Valdez</Full_Name>
+        <Address>Ap #714-186 Ipsum. Avenue</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-237-658-5822</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>3</StaffId>
+        <Full_Name>Wendy French</Full_Name>
+        <Address>619-7090 Nisl. Street</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>766-2856</Phone_Number>
+        <Department>Finances</Department>
+    </member>
+    <member>
+        <StaffId>4</StaffId>
+        <Full_Name>Jada Benton</Full_Name>
+        <Address>P.O. Box 451, 8721 Donec Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-128-561-2860</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>5</StaffId>
+        <Full_Name>Olivia Rhodes</Full_Name>
+        <Address>P.O. Box 984, 4143 Aliquam Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-162-660-3604</Phone_Number>
+        <Department>Accounting</Department>
+    </member>
+    <member>
+        <StaffId>6</StaffId>
+        <Full_Name>Yoshi Ortiz</Full_Name>
+        <Address>3098 In, Av.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>663-3895</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>7</StaffId>
+        <Full_Name>Alika Hinton</Full_Name>
+        <Address>4580 Nunc St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-266-117-7705</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>8</StaffId>
+        <Full_Name>Florence Sparks</Full_Name>
+        <Address>Ap #938-3393 Tempor Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>428-6834</Phone_Number>
+        <Department>Public Relations</Department>
+    </member>
+    <member>
+        <StaffId>9</StaffId>
+        <Full_Name>Knox Harris</Full_Name>
+        <Address>947-8146 Ornare Avenue</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>609-1643</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>11</StaffId>
+        <Full_Name>Dacey Burns</Full_Name>
+        <Address>Ap #863-6805 Metus Av.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>668-8863</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>12</StaffId>
+        <Full_Name>Iris Hampton</Full_Name>
+        <Address>P.O. Box 670, 5719 Amet, Avenue</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-654-327-3956</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>13</StaffId>
+        <Full_Name>Jane Roy</Full_Name>
+        <Address>P.O. Box 604, 2426 Lectus Street</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-534-784-3987</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>14</StaffId>
+        <Full_Name>Salvador Zimmerman</Full_Name>
+        <Address>P.O. Box 910, 3525 Mauris Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-668-568-7115</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>15</StaffId>
+        <Full_Name>Tad Houston</Full_Name>
+        <Address>239-9183 Vulputate Avenue</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-893-402-3452</Phone_Number>
+        <Department>Tech Support</Department>
+    </member>
+    <member>
+        <StaffId>16</StaffId>
+        <Full_Name>Zephr Page</Full_Name>
+        <Address>P.O. Box 688, 6604 Semper Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-235-896-1192</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>17</StaffId>
+        <Full_Name>Ryan Gould</Full_Name>
+        <Address>P.O. Box 787, 7248 Integer Road</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>136-2572</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>18</StaffId>
+        <Full_Name>Aladdin Walton</Full_Name>
+        <Address>P.O. Box 543, 1219 Ridiculus Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-306-795-8178</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>19</StaffId>
+        <Full_Name>Colt Jennings</Full_Name>
+        <Address>Ap #726-5986 Orci Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-863-879-1964</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>20</StaffId>
+        <Full_Name>Dieter Arnold</Full_Name>
+        <Address>P.O. Box 326, 3264 Dignissim Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-927-149-7276</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>21</StaffId>
+        <Full_Name>Chastity Byers</Full_Name>
+        <Address>278-8705 Sagittis. Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-320-253-9296</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>22</StaffId>
+        <Full_Name>Paul Cotton</Full_Name>
+        <Address>Ap #956-5012 Integer Ave</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>659-9697</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>23</StaffId>
+        <Full_Name>Celeste Castaneda</Full_Name>
+        <Address>263-4308 Donec Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-318-147-0942</Phone_Number>
+        <Department>Tech Support</Department>
+    </member>
+    <member>
+        <StaffId>24</StaffId>
+        <Full_Name>Gisela Steele</Full_Name>
+        <Address>4077 Vulputate, Street</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-210-542-4397</Phone_Number>
+        <Department>Legal Department</Department>
+    </member>
+    <member>
+        <StaffId>25</StaffId>
+        <Full_Name>Brenna Foley</Full_Name>
+        <Address>754-1574 Iaculis St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>788-0069</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>26</StaffId>
+        <Full_Name>Rajah Kirby</Full_Name>
+        <Address>Ap #392-2791 Eu, Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>165-6824</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>27</StaffId>
+        <Full_Name>Benedict Barker</Full_Name>
+        <Address>704-9614 Sed St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-441-402-6181</Phone_Number>
+        <Department>Accounting</Department>
+    </member>
+    <member>
+        <StaffId>28</StaffId>
+        <Full_Name>Zachery Mcintyre</Full_Name>
+        <Address>5644 Convallis St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>684-4392</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>29</StaffId>
+        <Full_Name>Lilah Roy</Full_Name>
+        <Address>262-2076 In Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-348-897-4551</Phone_Number>
+        <Department>Public Relations</Department>
+    </member>
+    <member>
+        <StaffId>30</StaffId>
+        <Full_Name>Vladimir Barry</Full_Name>
+        <Address>P.O. Box 601, 5657 Leo Road</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>835-4987</Phone_Number>
+        <Department>Tech Support</Department>
+    </member>
+    <member>
+        <StaffId>31</StaffId>
+        <Full_Name>Michael Cantrell</Full_Name>
+        <Address>1645 Ac St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>120-6251</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>32</StaffId>
+        <Full_Name>Jelani Velasquez</Full_Name>
+        <Address>Ap #580-3850 Malesuada Street</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-326-931-7422</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>33</StaffId>
+        <Full_Name>Quinn Estrada</Full_Name>
+        <Address>Ap #357-1497 Ornare, Ave</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-841-958-1355</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>34</StaffId>
+        <Full_Name>Hollee Holland</Full_Name>
+        <Address>Ap #693-2153 Nunc Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-317-376-6192</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>35</StaffId>
+        <Full_Name>Louis Johnson</Full_Name>
+        <Address>P.O. Box 251, 8987 Aenean Avenue</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-351-873-7159</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>36</StaffId>
+        <Full_Name>Glenna Hoffman</Full_Name>
+        <Address>P.O. Box 154, 6233 Feugiat. Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-506-375-4359</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>37</StaffId>
+        <Full_Name>Taylor Jefferson</Full_Name>
+        <Address>3866 Maecenas Avenue</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-173-858-4064</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>38</StaffId>
+        <Full_Name>Sylvester Marshall</Full_Name>
+        <Address>553-3324 Elit, Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-376-474-8669</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>39</StaffId>
+        <Full_Name>Chaney Roberson</Full_Name>
+        <Address>Ap #139-5264 Ligula Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-747-644-3603</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>40</StaffId>
+        <Full_Name>Lucy Newton</Full_Name>
+        <Address>Ap #365-5030 Aliquam Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>811-6967</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>41</StaffId>
+        <Full_Name>Timon Gonzales</Full_Name>
+        <Address>Ap #249-1716 Elit, St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-353-583-1450</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>42</StaffId>
+        <Full_Name>Audrey Gentry</Full_Name>
+        <Address>Ap #445-2426 Mattis. Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-439-172-8064</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>43</StaffId>
+        <Full_Name>Tucker Medina</Full_Name>
+        <Address>728-7829 Velit Avenue</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>320-7096</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>44</StaffId>
+        <Full_Name>Dalton Sweet</Full_Name>
+        <Address>P.O. Box 103, 835 Eu Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>301-5565</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>45</StaffId>
+        <Full_Name>Sybill Avery</Full_Name>
+        <Address>Ap #626-1361 Malesuada Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>489-5858</Phone_Number>
+        <Department>Legal Department</Department>
+    </member>
+    <member>
+        <StaffId>46</StaffId>
+        <Full_Name>Simone Becker</Full_Name>
+        <Address>P.O. Box 109, 2528 Tempor Avenue</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>977-0083</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>47</StaffId>
+        <Full_Name>Kennan Hammond</Full_Name>
+        <Address>810-1037 Ligula. Street</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>968-4410</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>48</StaffId>
+        <Full_Name>Dylan Walton</Full_Name>
+        <Address>P.O. Box 296, 733 Id Street</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>221-1273</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>49</StaffId>
+        <Full_Name>Hanae Mejia</Full_Name>
+        <Address>326-7916 Semper. Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>394-6266</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>50</StaffId>
+        <Full_Name>Scarlett Shaw</Full_Name>
+        <Address>5489 Natoque St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-967-200-7557</Phone_Number>
+        <Department>Legal Department</Department>
+    </member>
+    <member>
+        <StaffId>51</StaffId>
+        <Full_Name>Keefe Baird</Full_Name>
+        <Address>Ap #585-7687 Pellentesque, St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-306-531-2942</Phone_Number>
+        <Department>Finances</Department>
+    </member>
+    <member>
+        <StaffId>52</StaffId>
+        <Full_Name>Tucker Best</Full_Name>
+        <Address>5253 Et St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-665-534-8552</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>53</StaffId>
+        <Full_Name>Hashim Barnett</Full_Name>
+        <Address>199-8720 Et St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>789-3933</Phone_Number>
+        <Department>Tech Support</Department>
+    </member>
+    <member>
+        <StaffId>55</StaffId>
+        <Full_Name>Kyra Durham</Full_Name>
+        <Address>7901 Nunc Street</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-356-164-1660</Phone_Number>
+        <Department>Tech Support</Department>
+    </member>
+    <member>
+        <StaffId>56</StaffId>
+        <Full_Name>Jerry Lopez</Full_Name>
+        <Address>762 Mi, Street</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>841-5470</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>57</StaffId>
+        <Full_Name>Felicia Hall</Full_Name>
+        <Address>526-2371 Leo. Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-957-751-3826</Phone_Number>
+        <Department>Tech Support</Department>
+    </member>
+    <member>
+        <StaffId>58</StaffId>
+        <Full_Name>Claire Stout</Full_Name>
+        <Address>1790 Nam Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>853-7568</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>59</StaffId>
+        <Full_Name>Lacota Terry</Full_Name>
+        <Address>Ap #117-552 Aliquam St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>577-5433</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>60</StaffId>
+        <Full_Name>Jena Cobb</Full_Name>
+        <Address>122-2203 Arcu. Ave</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>480-4286</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>61</StaffId>
+        <Full_Name>Lee Thomas</Full_Name>
+        <Address>708-8008 Ut Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-828-715-3393</Phone_Number>
+        <Department>Public Relations</Department>
+    </member>
+    <member>
+        <StaffId>62</StaffId>
+        <Full_Name>Gabriel Levy</Full_Name>
+        <Address>728-9466 Vulputate, Av.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-355-193-0155</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>63</StaffId>
+        <Full_Name>Garrett Ortega</Full_Name>
+        <Address>Ap #465-2869 Penatibus Av.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>384-2144</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>64</StaffId>
+        <Full_Name>Chastity Whitfield</Full_Name>
+        <Address>P.O. Box 989, 9533 Penatibus Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>144-3368</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>65</StaffId>
+        <Full_Name>Joel Gardner</Full_Name>
+        <Address>6904 Proin St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-527-446-9294</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>66</StaffId>
+        <Full_Name>Barclay Stephenson</Full_Name>
+        <Address>Ap #866-7671 Turpis Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-839-704-9225</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>67</StaffId>
+        <Full_Name>Hanae Solomon</Full_Name>
+        <Address>531-224 Orci. Av.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-276-728-7318</Phone_Number>
+        <Department>Quality Assurance</Department>
+    </member>
+    <member>
+        <StaffId>68</StaffId>
+        <Full_Name>Guinevere Booth</Full_Name>
+        <Address>977-6245 Mauris Av.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-357-100-8401</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>69</StaffId>
+        <Full_Name>Todd Gonzales</Full_Name>
+        <Address>6700 Amet Street</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-426-540-4933</Phone_Number>
+        <Department>Advertising</Department>
+    </member>
+    <member>
+        <StaffId>70</StaffId>
+        <Full_Name>Mariko Dennis</Full_Name>
+        <Address>349-2681 Purus Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>693-2511</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>71</StaffId>
+        <Full_Name>Palmer Allison</Full_Name>
+        <Address>Ap #241-9660 Velit Street</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>484-7363</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>72</StaffId>
+        <Full_Name>Inga Goodwin</Full_Name>
+        <Address>5108 Natoque Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-507-345-3625</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>73</StaffId>
+        <Full_Name>Audra Randolph</Full_Name>
+        <Address>P.O. Box 498, 5996 Vulputate, Ave</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>532-0926</Phone_Number>
+        <Department>Finances</Department>
+    </member>
+    <member>
+        <StaffId>74</StaffId>
+        <Full_Name>Jonah Walter</Full_Name>
+        <Address>P.O. Box 637, 7590 Tempor St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>695-8496</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>75</StaffId>
+        <Full_Name>Madeline Hurley</Full_Name>
+        <Address>Ap #908-7681 Ligula. Ave</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-615-673-5521</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>76</StaffId>
+        <Full_Name>Rashad Farrell</Full_Name>
+        <Address>117-6070 Maecenas St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>325-4317</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>77</StaffId>
+        <Full_Name>Jescie Garrett</Full_Name>
+        <Address>344-5298 Sed Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>540-4005</Phone_Number>
+        <Department>Finances</Department>
+    </member>
+    <member>
+        <StaffId>78</StaffId>
+        <Full_Name>Perry Edwards</Full_Name>
+        <Address>P.O. Box 293, 5715 Vulputate Road</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>719-8290</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>79</StaffId>
+        <Full_Name>Xenos Foreman</Full_Name>
+        <Address>829-9340 Magna. Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>519-0004</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>80</StaffId>
+        <Full_Name>Liberty Mcfarland</Full_Name>
+        <Address>358-3347 Faucibus Av.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>896-7512</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>81</StaffId>
+        <Full_Name>Gisela Gates</Full_Name>
+        <Address>Ap #253-2680 Purus. Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>240-8559</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>82</StaffId>
+        <Full_Name>Gabriel Best</Full_Name>
+        <Address>701-2532 Est St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>971-3416</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>83</StaffId>
+        <Full_Name>Blaze Buchanan</Full_Name>
+        <Address>2842 At, Avenue</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>307-4596</Phone_Number>
+        <Department>Accounting</Department>
+    </member>
+    <member>
+        <StaffId>84</StaffId>
+        <Full_Name>Edward Massey</Full_Name>
+        <Address>Ap #138-685 Malesuada St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-978-406-6893</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>85</StaffId>
+        <Full_Name>Isadora Conley</Full_Name>
+        <Address>Ap #734-6465 Libero. Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>889-9173</Phone_Number>
+        <Department>Legal Department</Department>
+    </member>
+    <member>
+        <StaffId>86</StaffId>
+        <Full_Name>Nicole Lynn</Full_Name>
+        <Address>421-7550 Risus. Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>913-2100</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>87</StaffId>
+        <Full_Name>Alea Simpson</Full_Name>
+        <Address>Ap #685-5759 Ligula. St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>241-5263</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>88</StaffId>
+        <Full_Name>Emery Holcomb</Full_Name>
+        <Address>Ap #739-9325 Justo Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-823-466-6563</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>89</StaffId>
+        <Full_Name>Isabelle Nunez</Full_Name>
+        <Address>126-4095 Consequat Ave</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-211-909-1363</Phone_Number>
+        <Department>Customer Service</Department>
+    </member>
+    <member>
+        <StaffId>90</StaffId>
+        <Full_Name>Mari Grant</Full_Name>
+        <Address>4967 Libero. St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-922-769-1580</Phone_Number>
+        <Department>Research and Development</Department>
+    </member>
+    <member>
+        <StaffId>91</StaffId>
+        <Full_Name>Sasha Dillon</Full_Name>
+        <Address>P.O. Box 615, 1038 Odio. St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>853-9088</Phone_Number>
+        <Department>Payroll</Department>
+    </member>
+    <member>
+        <StaffId>92</StaffId>
+        <Full_Name>Hop Rush</Full_Name>
+        <Address>580-4677 Consequat, St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>769-8991</Phone_Number>
+        <Department>Finances</Department>
+    </member>
+    <member>
+        <StaffId>93</StaffId>
+        <Full_Name>Dara Gay</Full_Name>
+        <Address>Ap #238-9079 Ipsum. Road</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>443-3795</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>94</StaffId>
+        <Full_Name>Constance Bates</Full_Name>
+        <Address>Ap #192-4567 Quisque Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-961-225-3337</Phone_Number>
+        <Department>Sales and Marketing</Department>
+    </member>
+    <member>
+        <StaffId>95</StaffId>
+        <Full_Name>Tobias Estrada</Full_Name>
+        <Address>5648 Egestas St.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-971-169-2783</Phone_Number>
+        <Department>Media Relations</Department>
+    </member>
+    <member>
+        <StaffId>96</StaffId>
+        <Full_Name>Jerry Beck</Full_Name>
+        <Address>293-1458 Est. Rd.</Address>
+        <Gender>Male </Gender>
+        <Phone_Number>1-817-850-2691</Phone_Number>
+        <Department>Human Resources</Department>
+    </member>
+    <member>
+        <StaffId>97</StaffId>
+        <Full_Name>Phyllis Hahn</Full_Name>
+        <Address>6459 Massa. St.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>867-1644</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>98</StaffId>
+        <Full_Name>Upton Orr</Full_Name>
+        <Address>Ap #386-1940 Tellus Ave</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-843-505-9423</Phone_Number>
+        <Department>Customer Relations</Department>
+    </member>
+    <member>
+        <StaffId>99</StaffId>
+        <Full_Name>Hamilton Castillo</Full_Name>
+        <Address>P.O. Box 512, 7230 Orci Rd.</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>495-2911</Phone_Number>
+        <Department>Legal Department</Department>
+    </member>
+    <member>
+        <StaffId>100</StaffId>
+        <Full_Name>Jakeem Miranda</Full_Name>
+        <Address>P.O. Box 906, 5580 Cras Avenue</Address>
+        <Gender> Female</Gender>
+        <Phone_Number>1-411-707-8123</Phone_Number>
+        <Department>Asset Management</Department>
+    </member>
+    <member>
+        <StaffId>101</StaffId>
+        <Full_Name>Francesco</Full_Name>
+        <Address>Lane 1</Address>
+        <Gender>Male</Gender>
+        <Phone_Number>0874</Phone_Number>
+        <Department>Accounting</Department>
     </member>
 </staff>

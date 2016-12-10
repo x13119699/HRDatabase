@@ -23,13 +23,24 @@
 			<body>
 				<table>
 					<tr>
+						<th>Staff Id</th>
 						<th>Full Name</th>
 						<th>Address</th>
 						<th>Gender</th>
 						<th>Phone Number</th>
+						<th>Department</th>
 					</tr>
+					
+					
+					
 					<xsl:for-each select="staff/member">
 							<tr>
+								
+								
+								<td>
+									<xsl:value-of select="StaffId"/>
+								</td>
+								
 								<td>
 									<xsl:value-of select="Full_Name"/>
 								</td>
@@ -42,6 +53,9 @@
 
 								<td>
 									<xsl:value-of select="Phone_Number"/>
+								</td>
+								<td>
+								<xsl:value-of select="Department"/>
 								</td>
 							</tr>
 					</xsl:for-each>

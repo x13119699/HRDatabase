@@ -57,6 +57,9 @@
         <ul class="nav nav-list well">
           <li>
             <form enctype='application/json' action="/post/json" method="post">
+							  <div class="field">
+                <input type="text" name="StaffId" placeholder="StaffId">
+              </div>
               <div class="field">
                 <input type="text" name="Full_Name" placeholder="Full Name">
               </div>
@@ -69,6 +72,9 @@
               <div class="field">
                 <input type="text" name="Phone_Number" placeholder="Phone Number">
               </div>
+							              <div class="field">
+                <input type="text" name="Department" placeholder="Department">
+              </div>
               <div class="field">
                 <button type="submit">Submit</button>
               </div>
@@ -76,6 +82,31 @@
           </li>
         </ul>
       </div>
+		 <div class="span4">
+
+      <ul class="nav nav-list well">
+
+        <li>
+
+         <form name="deleteRecord" enctype='application/json' onsubmit="return validateDelForm()" action="/delete/json" method="post">
+
+            <div class="field">
+
+                <input type="text" name="StaffId" placeholder="StaffId">
+
+            </div>
+
+              <div class="field">
+
+                <button type="submit">Delete</button>
+					 </div>
+					</form>
+				</li>
+				<ul>
+				</ul>
+				</div>
+					
+				
       <div class="row">
       <div id="results" class="span11">
       </div>
