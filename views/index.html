@@ -19,7 +19,7 @@
     th,
     td {
       border-collapse: collapse; 
-      border: 1px solid black;
+      border: 10px solid black;
       text-align: left;
 			
 
@@ -60,9 +60,9 @@
 
    
 
-    if (x == "" || isNaN(x) || x.toString().length < 4) {
+    if (x == "" || isNaN(x) || x.toString().length > 4) {
 
-        alert("StaffId id is empty, not numeric or too short.");
+        alert("StaffId id is empty, not numeric or too long.");
 
         return false;
 
@@ -76,7 +76,7 @@
 
     }
 
-    else if (z == "" || !isNaN(y) || z == "" || !isNaN(z)) {
+    else if (z == "" || !isNaN(z)) {
 
         alert("Address is empty or is numeric.");
 
@@ -92,9 +92,9 @@
 
     }
 
-    else if (v == "" || !isNaN(v) || v =="") {
+    else if (v == "" || isNaN(v) || v =="") {
 
-        alert("Phone number is empty.");
+        alert("Phone number is invalid. Dont include spaces");
 
         return false;
 
@@ -139,7 +139,7 @@
       </div>
     </div>
     <div class="page-header">
-      <h1>HR-Staff Details</h1>
+      <h1>HR-Staff Database</h1>
     </div>
 
 		

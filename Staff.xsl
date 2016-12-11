@@ -5,19 +5,25 @@
 			<head>
 				<style>
 				  table {
-				    border: transparent;
+				    border: 1px solid black;
 						margin: 0 auto;
 				  }
 				  td, th {
 				    
-					border: transparent;
+						border: 1px solid white;
 				    padding: 0.5rem;
-				    text-align: center;
-						font-color: #483D8B
+				    text-align: left;
+						font-color: #FFFFFF
 				  }
 				  th {
 				    font-weight: bold;
+					  font-size: 16px;
+					  text-align: left
 				  }
+					
+<!-- 					body{
+					background-color:grey
+					} -->
 			  </style>
 							</head>
 			<body>
