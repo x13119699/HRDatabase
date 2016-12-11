@@ -746,6 +746,7 @@ h6 {
   font-weight: bold;
   line-height: 20px;
   color: #000000;
+  text-shadow: 2px 2px #DAA520;
 /*   color: #C0C0C0; */
   text-rendering: optimizelegibility
 }
@@ -801,6 +802,8 @@ h2 small {
 
 h3 small {
   font-size: 14px
+    
+  
 }
 
 h4 small {

@@ -146,10 +146,12 @@
 		
 		
 <div class="span5">
+	
         <ul class="nav nav-list well">
           <li>
             <form name="newRecord" enctype='application/json' onsubmit="return validateForm()" action="/post/json" method="post">
-							  <div class="field">
+							<h3>Employee Details</h3>  
+							<div class="field">
                 <input type="text" name="StaffId" placeholder="StaffId">
 								
               </div>
@@ -187,7 +189,9 @@
         <li>
 
          <form name="deleteRecord" enctype='application/json' onsubmit="return validateDelForm()" action="/delete/json" method="post">
-
+						
+					 <h3>Remove Employee</h3>
+					 
             <div class="field">
 
                 <input type="text" name="StaffId" placeholder="StaffId">
