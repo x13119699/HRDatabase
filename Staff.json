@@ -783,14 +783,6 @@
             "Gender": " Female",
             "Phone_Number": "1-411-707-8123",
             "Department": "Asset Management"
-        },
-        {
-            "StaffId": "101",
-            "Full_Name": "Paul Cahill",
-            "Address": "NCI Dublin ",
-            "Gender": "Male",
-            "Phone_Number": "018048096",
-            "Department": "IT"
         }
     ]
 }

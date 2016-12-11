@@ -10,7 +10,7 @@
 				  }
 				  td, th {
 				    
-						border: 1px solid white;
+						border: 1px solid black;
 				    padding: 0.5rem;
 				    text-align: left;
 						font-color: #FFFFFF
@@ -18,7 +18,8 @@
 				  th {
 				    font-weight: bold;
 					  font-size: 16px;
-					  text-align: left
+						font-color: #000000;
+					  text-align: center
 				  }
 					
 <!-- 					body{

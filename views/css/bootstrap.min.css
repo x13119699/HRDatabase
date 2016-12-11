@@ -226,10 +226,11 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #FFFFFF;
-  background: radial-gradient(circle, black, darkgray,grey);
+  color: #808080;
+/*   color: #FFFFFF; */
+/*   background: radial-gradient(circle, black, darkgray,grey); */
 /*   background-image: url("wallpaper2.png"); */
-/*   background-color: #fff */
+  background-color: #FFFACD
 }
 
 a {
@@ -744,7 +745,8 @@ h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #000000;
+/*   color: #C0C0C0; */
   text-rendering: optimizelegibility
 }
 

@@ -784,12 +784,4 @@
         <Phone_Number>1-411-707-8123</Phone_Number>
         <Department>Asset Management</Department>
     </member>
-    <member>
-        <StaffId>101</StaffId>
-        <Full_Name>Paul Cahill</Full_Name>
-        <Address>NCI Dublin </Address>
-        <Gender>Male</Gender>
-        <Phone_Number>018048096</Phone_Number>
-        <Department>IT</Department>
-    </member>
 </staff>

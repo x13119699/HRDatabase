@@ -1,0 +1,169 @@
+<!doctype html>
+
+<html lang="en" ng-app>
+
+
+
+<head>
+
+  <title>Staff Personal Details</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+
+  <style>
+
+    body {
+
+      padding-top: 60px;
+
+      padding-bottom: 60px;
+
+    }
+
+    
+
+    table,
+
+    th,
+
+    td {
+
+      border-collapse: collapse;
+
+      border: 1px solid black;
+
+      text-align: center;
+
+    }
+
+  </style>
+
+  <script src="/js/jquery.min.js"></script>
+
+  <script src="/js/bootstrap.min.js"></script>
+
+  <script>
+
+    function load() {
+
+      $.ajax({
+
+        url: "/get/html",
+
+        cache: false,
+
+        success: function(html) {
+
+          $("#results").append(html);
+
+        }
+
+      });
+
+    };
+
+
+
+    $(document).ready(function() {
+
+      load();
+
+    });
+
+  </script>
+
+</head>
+
+
+
+<body>
+
+  <div class="container">
+
+    <div class="navbar navbar-fixed-top navbar-inverse">
+
+      <div class="navbar-inner">
+
+      </div>
+
+    </div>
+
+    <div class="page-header">
+
+      <h1>Staff Personal Details</h1>
+
+    </div>
+
+    <div class="row">
+
+      <div id="results" class="span8">
+
+      </div>
+
+      <!--Submission Box Below-->
+
+      <div class="span4">
+
+        <ul class="nav nav-list well">
+
+          <li>
+
+            <form enctype='application/json' action="/post/json" method="post">
+
+              <div class="field">
+
+                <input type="text" name="fullName" placeholder="Full Name:">
+
+              </div>
+
+              <div class="field">
+
+                <input type="text" name="Gender" placeholder="Gender:">
+
+              </div>
+
+              <div class="field">
+
+                <input type="text" name="birthDate" placeholder="Date of Birth:">
+
+              </div>
+
+              <div class="field">
+
+                <input type="text" name="department " placeholder="Department:">
+
+              </div>
+
+              <div class="field">
+
+                <input type="text" name="empNumber" placeholder="Employee Number:">
+
+              </div>
+
+              <div class="field">
+
+                <button type="submit">Update!</button>
+
+              </div>
+
+            </form>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+
+
+</html>
