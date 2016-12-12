@@ -48,88 +48,45 @@
 		
     function validateForm() {
     var x = document.forms["newRecord"]["StaffId"].value;
-
     var y = document.forms["newRecord"]["Full_Name"].value;
-
     var z = document.forms["newRecord"]["Address"].value;
-
     var w = document.forms["newRecord"]["Gender"].value;
-
     var v = document.forms["newRecord"]["Phone_Number"].value;
-
     var c = document.forms["newRecord"]["Department"].value;
 
-   
-
     if (x == "" || isNaN(x) || x.toString().length > 4) {
-
         alert("StaffId id is empty, not numeric or too long.");
-
         return false;
-
     }
-
     else if ( y.toString().length < 2) {
-
         alert("Full Name has to be at least 2 characters long.");
-
         return false;
-
     }
-
     else if (z == "" || !isNaN(z)) {
-
         alert("Address is empty or is numeric.");
-
         return false;
-
     }
-
     else if (w == "" || !isNaN(w)) {
-
         alert("Gender is empty or is numeric.");
-
         return false;
-
     }
-
     else if (v == "" || isNaN(v) || v =="") {
-
         alert("Phone number is invalid. Dont include spaces");
-
         return false;
-
     }
-
     else if (c.toString().length < 2) {
-
         alert("Department must be at least two characters long");
-
         return false;
-
     }
-
-    }
-
-    
+}
 
   function validateDelForm(){
-
     var x = document.forms["deleteRecord"]["StaffId"].value;
-
     if(x == "" || isNaN(x)){
-
         alert("Staff id empty or not a number");
-
         return false;
-
     }
-
-    
-
   }
-		
-		
   </script>
 </head>
 
@@ -152,7 +109,6 @@
             <form name="newRecord" enctype='application/json' onsubmit="return validateForm()" action="/post/json" method="post">
 							  <div class="field">
                 <input type="text" name="StaffId" placeholder="StaffId">
-								
               </div>
               <div class="field">
                 <input type="text" name="Full_Name" placeholder="Full Name">
@@ -178,38 +134,26 @@
       </div>
 		
 		
-		
-		 <div class="span5">
+		<div class="span5">
+				<ul class="nav nav-list well">
+					<li>
+					 <form name="deleteRecord" enctype='application/json' onsubmit="return validateDelForm()" action="/delete/json" method="post">
+							<div class="field">
+									<input type="text" name="StaffId" placeholder="StaffId">
+							</div>
+								<div class="field">
+									<button type="submit">Delete</button>
+						 </div>
+						</form>
+					</li>
+			</ul>
+		</div>
 
-			 
-			 
-      <ul class="nav nav-list well">
 
-        <li>
-
-         <form name="deleteRecord" enctype='application/json' onsubmit="return validateDelForm()" action="/delete/json" method="post">
-
-            <div class="field">
-
-                <input type="text" name="StaffId" placeholder="StaffId">
-
-            </div>
-
-              <div class="field">
-
-                <button type="submit">Delete</button>
-					 </div>
-					</form>
-				</li>
-				<ul>
-				</ul>
+				<div class="row">
+				<div id="results" class="span11">
 				</div>
-					
-				
-      <div class="row">
-      <div id="results" class="span11">
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+			</div>
+		</div>
+	</body>
+	</html>
