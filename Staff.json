@@ -783,6 +783,14 @@
             "Gender": " Female",
             "Phone_Number": "1-411-707-8123",
             "Department": "Asset Management"
+        },
+        {
+            "StaffId": "101",
+            "Full_Name": "mark aketer",
+            "Address": "Lane 101 ipswich",
+            "Gender": "male",
+            "Phone_Number": "987798",
+            "Department": "Sales"
         }
     ]
 }

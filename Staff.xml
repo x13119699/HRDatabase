@@ -784,4 +784,12 @@
         <Phone_Number>1-411-707-8123</Phone_Number>
         <Department>Asset Management</Department>
     </member>
+    <member>
+        <StaffId>101</StaffId>
+        <Full_Name>mark aketer</Full_Name>
+        <Address>Lane 101 ipswich</Address>
+        <Gender>male</Gender>
+        <Phone_Number>987798</Phone_Number>
+        <Department>Sales</Department>
+    </member>
 </staff>

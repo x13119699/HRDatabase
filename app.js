@@ -1,3 +1,8 @@
+//the following code is referenced from the following sources//
+//https://github.com/InspektorKukeke/USERDATABASE in order to delete a record with the splice record.
+//https://github.com/mikhail-nci/wad-simple-demo in order to make the get and post requests and to add a record to the table.
+
+
 var http = require('http'),
   path = require('path'),
   express = require('express'),
